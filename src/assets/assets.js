@@ -45,6 +45,8 @@ import food_28 from './food_28.png'
 import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
+import food_32 from './food_32.png'
+
 
 
 import add_icon_white from './add_icon_white.png'
@@ -301,5 +303,13 @@ export const food_list = [
         price: 10,
         description: "เส้นบะหมี่เหนียวนุ่ม มักใช้เป็นท็อปปิ้งในเมนูต่างๆ ",
         category: "ท็อปปิ้ง"
+    },
+    {
+        _id: "26",
+        name: "ข้าว",
+        image: food_32,
+        price: 5,
+        description: "ข้าวร้อนๆ พร้อมกินกับกับข้าวทุกอย่าง ",
+        category: "ข้าว"
     }
 ]

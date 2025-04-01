@@ -67,7 +67,7 @@ const PlaceOrder = () => {
 
     useEffect(() => {
         if (!token) {
-            toast.error("to place an order sign in first")
+            toast.error("โปรดเข้าระบบก่อนสั่งรายการอาหาร")
             navigate('/cart')
         }
         else if (getTotalCartAmount() === 0) {
